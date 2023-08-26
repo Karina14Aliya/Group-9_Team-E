@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Poppins;
+	background-color: white;
+
+}
+.background img{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+}
+
+.container{
+	padding: 3% 5%;
+}
+
+.navbar{
+	width: 100%;
+	height: 5vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+nav{
+	flex: 1;
+	padding-left: 60px;	
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+    border-radius: 20px;
+	cursor: pointer;
+}
+
+.navbar-item{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 16px;
+    transition-duration: 300ms;
+}
+
+.navbar-item-revou {
+	padding: 20px;
+	border-radius: 50px;
+	background-color: #FC8621;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-item-revou:hover{
+    background-color: #C24914;
+}
+
+.navbar-item:hover{
+    background-color: #FC8621;
+    color: black;
+}
+
+.login {
+	background-color: #ee6c27;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.logo{
+	width:80px;
+}
+
+.isi {
+    margin-top: 30vh;
+	padding: 110px 140px;
+	max-width: 1500px;
+}
+
+.isi h1{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 3rem;
+}
+
+.container h1{
+	color: white;
+	font-size: 3rem;
+	padding-left: 30%;
+	padding-top: 5%;
+}
+
+.container iframe{
+	width: 1010px;
+	height: 500px;
+	padding-left: 11%;
+	padding-top: 2%;
+}
+
+/* Profile Member Flex */
+#Member {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Profile {
+    padding: 20px;
+    background-color: #FFD95A;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.Photo_Member {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.Data {
+    line-height: 1.5;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: #4C3D3D;
+}
+
+.Sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 35px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: #C07F00;
+}
+
+.fa-linkedin {
+    background: white;
+    color: #4C3D3D;
+}
+
+.fa-instagram {
+    background: white;
+    color: #4C3D3D;
+}
+
+.fa-github {
+    background: white;
+    color: #4C3D3D;
+}
+
+/* Table Member*/
+table{
+    border-spacing: 4px;
+    width: 100%;
+	padding-top: 30px;
+    margin-top: 100px;
+}
+
+#Goal-list {
+    line-height: 2;
+    word-spacing: 2;
+}
+#konten {
+    text-align: center;
+    padding: 20px;
+}
+
+.tabel-header{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.tabel-header th{
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr td a{
+    text-decoration: none;
+    color: black;
+}
+
+tr td a::after{
+    text-decoration: none;
+    color: black;
+}
+
+.tabel-konten-ganjil{
+    background-color: #FFD95A;
+}
+
+.tabel-konten-genap{
+    background-color: #C07F00;
+}
+
+.tabel-konten-ganjil:hover, .tabel-konten-genap:hover{
+    background-color:#4C3D3D;
+	color: white;
+}
+
+td , th{
+    padding: 50px;
+    text-align: center;
+}
+
+td>img{
+    width: 100px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff8a4b;
+}
+
+.footer img{
+	width: 5%;
+}
+
+.footer p{
+	color: white;
+}

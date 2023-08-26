@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group 9 | Balikpapan</title>
+        <link rel="stylesheet" type="text/css" href="CSS/loginregister.css">
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        </style>
+    </head>
+    
+    <body>
+        <!-- Register Page-->
+        <div class="form-wrap">
+            <form>
+                <h1>Sign Up</h1>
+                <h2>Register yourself to get access</h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <input type="button" value="Sign Up" onclick="redirectToLoginPage()">
+            </form>
+        </div>
+        <script>
+        function redirectToLoginPage() {
+            // Redirect to the signup success page
+            window.location.href = "login.html"; 
+        }
+        </script>
+    </body>
+</html>

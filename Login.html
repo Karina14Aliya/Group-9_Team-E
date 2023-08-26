@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group 9 | Balikpapan</title>
+        <link rel="stylesheet" type="text/css" href="CSS/loginregister.css">
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <!-- Background -->
+        <div class="background">
+            <img src="Asset/bgtop.jpg" alt="bg">
+        </div>
+        
+        <!-- Login Page-->
+        <div class="form-login">
+            <form>
+                <h1>Login</h1>
+                <input type="text" placeholder="Email/Username">
+                <input type="password" placeholder="Password">
+                <input type="button" value="Login" onclick="redirectToHomePage()">
+            </form>
+        </div>
+        <script>
+            function redirectToHomePage() {
+                // Redirect to the signup success page
+                window.location.href = "home.html"; 
+            }
+        </script>
+    </body>
+</html>
